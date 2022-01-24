@@ -33,7 +33,6 @@ export const AppRouter = () => {
         return (<h1>Espere...</h1>);
     }
 
-
     return (
         <Router>
             <div>
