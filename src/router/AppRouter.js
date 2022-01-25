@@ -37,6 +37,7 @@ export const AppRouter = () => {
         <Router>
             <div>
                 <Switch>
+                    
                     <PublicRoute 
                         exact 
                         path="/login" 
@@ -50,8 +51,9 @@ export const AppRouter = () => {
                         component={CalendarScreen} 
                         isAuthenticated={!!uid}
                     />
-
+                    
                     <Redirect to="/" />
+
                 </Switch>
             </div>
         </Router>
