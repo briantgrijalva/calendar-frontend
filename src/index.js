@@ -4,7 +4,7 @@ import { CalendarApp } from './CalendarApp';
 
 import './styles.css';
 
-// test de commit 
+// test de commit calendar-app
 
 ReactDOM.render(
     <CalendarApp />,
